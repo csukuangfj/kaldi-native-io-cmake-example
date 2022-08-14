@@ -73,6 +73,7 @@ jobs:
           git clone https://github.com/csukuangfj/kaldi_native_io
           cd kaldi_native_io
           mkdir build
+          cd build
           cmake ..
           make -j VERBOSE=1
           pwd
