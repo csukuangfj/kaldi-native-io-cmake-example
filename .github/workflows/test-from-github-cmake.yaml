@@ -70,7 +70,7 @@ jobs:
         shell: bash
         run: |
           cd $HOME
-          git clone git+https://github.com/csukuangfj/kaldi_native_io
+          git clone https://github.com/csukuangfj/kaldi_native_io
           cd kaldi_native_io
           mkdir build
           cmake ..
